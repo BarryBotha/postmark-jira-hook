@@ -1,0 +1,24 @@
+{
+  "name": "cv-website",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "express": ">= 3.0.0rc4",
+    "jade": "*",
+    "request": "latest",
+    "jira": "~0.6.0",
+    "underscore": "~1.4.4",
+    "natural": "~0.1.21",
+    "string": "~1.4.0",
+    "moment": "~2.0.0",
+    "postmark": "~0.1.8"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+}
