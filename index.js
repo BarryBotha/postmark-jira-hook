@@ -152,7 +152,7 @@ app.post('/emails/received', function(req, res){
 	var subject = (req.body.Subject || '') + " - " + from_name_str;
 	var body = req.body.TextBody || req.body.HtmlBody || '';
 
-	body = '{html}' + htmlUnescape(body) + '{html}';
+	body = '' + htmlUnescape(body) + '';
 	// body = S(body).stripTags().s;
 
 	var msg_body = body;
