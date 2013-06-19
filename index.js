@@ -34,8 +34,8 @@ var base_settings = {
 	followAllRedirects: true,
 
 	'auth': {
-		'user': process.env.JIRA_USER or '',
-		'pass': process.env.JIRA_PASSWORD or '',
+		'user': process.env.JIRA_USER || '',
+		'pass': process.env.JIRA_PASSWORD || '',
 		'sendImmediately': true
 	}
 
