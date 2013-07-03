@@ -16,7 +16,8 @@
     "string": "~1.4.0",
     "moment": "~2.0.0",
     "postmark": "~0.1.8",
-    "multipart": "latest"
+    "multipart": "latest",
+    "mu2": "~0.5.19"
   },
   "engines": {
     "node": "0.8.x",
